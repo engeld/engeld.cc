@@ -78,6 +78,7 @@ nav#menu ul a:active {
 .foreground-template ul,p {
   padding-left: 7em;
   padding-right: 4em;
+  list-style: square;
 }
 .link-container{
   text-align: center;
