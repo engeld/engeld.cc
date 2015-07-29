@@ -7,6 +7,7 @@ body {
   font-family: Verdana, Arial, Helvetica, SunSans-Regular, Sans-Serif;
 }
 
+/* Style of the navigation at the top */
 nav#menu {
   margin: 0;
   padding: 0.3em 0 0.3em 0;
@@ -14,19 +15,16 @@ nav#menu {
   width: 100%;
   text-align: center;
 }
-
 nav#menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 nav#menu ul li {
   margin: 0;
   padding: 0;
   display: inline;
 }
-
 nav#menu ul a:link {
   margin: 0;
   padding: 0.3em 0.4em 0.3em 0.4em;
@@ -35,7 +33,6 @@ nav#menu ul a:link {
   font-size: medium;
   color: #414141;
 }
-
 nav#menu ul a:visited {
   margin: 0;
   padding: 0.3em 0.4em 0.3em 0.4em;
@@ -44,11 +41,8 @@ nav#menu ul a:visited {
   font-size: medium;
   color: #414141;
 }
-
 nav#menu ul a:active {
-
 }
-
 
 .submenu {
   display: table-cell;
@@ -75,6 +69,10 @@ nav#menu ul a:active {
   padding-left: 2em;
   padding-right: 2em;
 }
+.foreground-template h3 {
+  padding-left: 5em;
+  padding-right: 3em;
+}
 .foreground-template ul,p {
   padding-left: 7em;
   padding-right: 4em;
@@ -93,6 +91,8 @@ footer {
   font-size: 10px;
 }
 
+
+/* code for the fancy horizontal line */
 hr.fancy-line { 
   border: 0; 
   height: 1px;
